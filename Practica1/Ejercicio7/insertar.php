@@ -24,5 +24,4 @@ $params = [
 $statement->execute($params);
 //echo $db->lastInsertId();
 
-
 ?>
