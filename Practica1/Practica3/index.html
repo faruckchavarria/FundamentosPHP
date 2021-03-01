@@ -7,11 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <label for="Nombre"> Nombre : </label> <br>
-    <input type="text" placeholder="Pon tu nombre " name="nombre">  <br>
-    <label for=""> numero : </label> <br>
-    <input type="number" placeholder="nuemro de veces que desea repetir" name="numero"> <br>
-
+    <h1>Insertar datos con Php</h1><hr>
+                        <form  method="POST" name="form-work" action="index.php">
+                                <fieldset>
+                                  <div class="form-group">
+                                    <div class="col-md-6">
+                                      <label class="control-label" for="nombre">Ingrese su nombre</label>
+                                      <input name="nombre" class="form-control" placeholder="Tu nombre" type="text">
+                                      </div>
+                                    </div>
+                                  <div class="form-group">
+                                      <div class="col-md-6">
+                                        <label class="control-label" for="apellido">Ingrese la cantidad de veces que decea repetir</label>
+                                        <input name="numero" class="form-control" placeholder="N° de repeticiones" type="text">
+                                      </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-md-12">
+                                          <button type="submit" class="btn btn-primary btn-lg btn-block info">Guardar</button>
+                                        </div>
+                              </form>
 </body>
 </html>
